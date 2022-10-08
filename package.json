@@ -1,0 +1,34 @@
+{
+	"name": "pride-campus",
+	"version": "1.0.0",
+	"description": "Spreading awarness about the LGBTQ+ Community. 🌈",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OctoplusNinja/Pride-Campus.git"
+	},
+	"keywords": [
+		"LGBTQ+",
+		"Discord Bot"
+	],
+	"author": "Aniruddha Das, Falguni Sarkar",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/OctoplusNinja/Pride-Campus/issues"
+	},
+	"homepage": "https://github.com/OctoplusNinja/Pride-Campus#readme",
+	"dependencies": {
+		"@discordjs/builders": "^0.15.0",
+		"@discordjs/rest": "^0.5.0",
+		"axios": "^0.27.2",
+		"cohere-ai": "^3.2.0",
+		"discord-api-types": "^0.35.0",
+		"discord.js": "^13.8.1",
+		"dotenv": "^16.0.1",
+		"nodemon": "^2.0.18"
+	}
+}
