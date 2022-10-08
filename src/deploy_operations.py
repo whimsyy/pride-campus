@@ -83,8 +83,8 @@ def is_delivered(order_id):
 
 def withdrawSeller(seller_address):
     account = getAccount()
-    operationals = Operational[-1]
-    our_coin = TheyCoin[-1]
+#     operationals = Operational[-1]
+#     our_coin = TheyCoin[-1]
 
     withdraw_tx = operationals.sellerWithdraw(our_coin, seller_address, {"from":account})
     withdraw_tx.wait(1)
